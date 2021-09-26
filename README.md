@@ -22,7 +22,7 @@ Run `setup.sh` to:
 
 Run `patch.sh $FONT_NAME` to patch `$FONT_NAME`
 
-## Font Forge Help
+## Font Patcher Help
 
 ```
 usage: font-patcher [-h] [-v] [-s] [-l] [-q] [-w] [-c] [--fontawesome]
