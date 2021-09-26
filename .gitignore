@@ -1,0 +1,7 @@
+FontForge.AppImage
+font-patcher
+
+src/glyphs/*
+
+*.ttf
+*.otf
