@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
-./FontForge.AppImage \
-  -script $PWD/font-patcher $PWD/"$1" \
-    --use-single-width-glyphs \
-    --adjust-line-height \
-    --quiet \
-    --windows \
-    --complete \
-    -out $PWD/out
+
+for font in *.ttf
+do
+  ./FontForge.AppImage \
+    -script $PWD/font-patcher "$PWD/$font" \
+      --use-single-width-glyphs \
+      --windows \
+      --complete \
+      --progressbars \
+      --careful \
+      -out $PWD/out
+done
