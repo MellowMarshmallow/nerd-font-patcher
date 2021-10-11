@@ -20,7 +20,7 @@ Run `setup.sh` to:
 3. Download `font-patcher` from `ryanoasis/nerd-fonts`
 4. Download patches from `ryanoasis/nerd-fonts/src/glyphs`
 
-Run `patch.sh $FONT_NAME` to patch `$FONT_NAME`
+Run `patch.sh` to patch `*.ttf` files in the root directory
 
 ## Font Patcher Help
 
